@@ -1,0 +1,117 @@
+/*
+Lexend Deca  Weights: 400
+Big+Shoulders+Display -Weights: 700
+*/
+
+:root {
+    --cor-laranja : #E28525;
+    --cor-verde-claro : #027373;
+    --cor-verde-escuro :#01403E ;
+    --cor-texto-laranja :#FEECD9 ;
+    --cor-texto-laranja : #FED082;
+    --cor-branca :#F2F2F0;
+    --fonte-principal :'Big Shoulders Display' ;
+    --font-secundaria : 'Lexend Deca';
+
+
+}
+
+
+.container__card{
+    margin: 50px;
+    padding: 2px;
+    
+    
+    
+}
+
+.card__laranja{
+    background-color: var(--cor-laranja);
+    padding: 10px;
+    height: 350px;
+    
+}
+
+.card__azul{
+    background-color: var(--cor-verde-claro);
+    padding: 10px;
+    height: 350px;
+}
+
+.card__azulEscuro{
+    background-color: var(--cor-verde-escuro);
+    padding: 10px;
+    height: 350px;
+    
+    
+}
+
+.card__img{
+    width: 50px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.card__titulo{
+    font-size: 30px;
+    color: var(--cor-branca);
+    text-transform: uppercase;
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    margin-left: 20px;
+   
+}
+
+.card__texto{
+    font-size: 13px;
+    font-family: var(--font-secundaria);
+    color: var(--cor-branca);
+    line-height: 25px;
+    padding: 50px 0;
+    margin-left: 20px;
+}
+
+.button_laranja{
+    color: var(--cor-laranja);
+}
+
+.button_azul{
+    color: var(--cor-verde-claro);
+}
+
+.button_azulEscuro{
+    color: var(--cor-verde-escuro);
+}
+
+.card__button{
+    background-color: var(--cor-branca);
+    text-decoration: none;
+    width: 35%;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 20px;
+    font-family: var(--font-secundaria);
+}
+
+@media (min-width : 768px) and (max-width : 1023px) {
+    
+    
+    .container__card{
+        width: 40%;
+        margin-left: 220px;
+        
+    }
+}
+
+@media (min-width : 1024px) {
+   
+    .container__card{
+        display: flex;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 200px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.107);
+        
+        
+    }
+}
